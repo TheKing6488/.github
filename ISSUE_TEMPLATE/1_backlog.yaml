@@ -1,0 +1,13 @@
+name: Backlog Item
+description: Create a backlog
+title: "[BACKLOG]"
+assignees: ["TheKing6488"]
+labels: ["backlog"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Enter a description here
+    validations:
+      required: false
